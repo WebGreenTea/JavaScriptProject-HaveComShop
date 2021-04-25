@@ -1,0 +1,62 @@
+#fildpad {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+div {
+  /*border: 1px solid red;*/
+}
+
+.checkbox-lg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.maindivDIYpage {
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+}
+
+#productArea {
+  cursor: pointer;
+}
+
+.bg-overlay {
+  background: url("https://drive.google.com/uc?export=view&id=1lw1o9JVs42xuZB_zly4zzdc6QurYrjW0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 300px;
+  padding-top: 100px;
+}
+
+.card:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.border-custom {
+  border-radius: 20px;
+}
+
+.register-bg {
+  background-color: dimgrey;
+  /*background: url("https://drive.google.com/uc?export=view&id=1mURFFMM8BbMcO9ipZDQ8oSUSgiBWv0Qb");*/
+  background-size: cover;
+  background-position: center center;
+}
