@@ -1,43 +1,4 @@
 <template>
-  <!-- Nav bar -->
-  <!--<nav
-    class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between flex-nowrap flex-row"
-  >
-    <div class="container">
-      <router-link to="/" class="navbar-brand float-left"
-        >HaveCOM SHOP</router-link
-      >
-      <div class="collapse navbar-collapse topnav-right" id="navbarDropdown">
-        <ul class="nav navbar-nav ml-auto" v-if="Inlogin">
-          <li class="nav-item dropdown">
-            <a
-              href=""
-              class="nav-link dropdown-toggle"
-              id="navbarDropdownMenu"
-              data-toggle="dropdown"
-              >{{ username }}</a
-            >
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
-              <li>
-                <a href="" @click="Logout" class="dropdown-item">Logout</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav ml-auto" v-else>
-          <li class="nav-item">
-            <router-link to="/login" class="nav-link pr-3">Login</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/register" class="nav-link pr-3"
-              >Register</router-link
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>-->
-
   <div class="container-fulid bg-overlay">
     <div class="text-center">
       <h1>จัดสเปคคอมของคุณเอง พร้อมบริการประกอบฟรี</h1>
@@ -159,9 +120,6 @@ import psuProduct from "./productMenu/PSU.vue";
 import caseProduct from "./productMenu/Case.vue";
 import coolerProduct from "./productMenu/cooler.vue";
 import moreProduct from "./productMenu/more.vue";
-//import {MainURL} from './js/MainUrl';
-//import axios from "axios";
-//import allProduct from './productMenu/allProduct.vue'
 
 export default {
   emits: ["set-nav", "update-cart"],
