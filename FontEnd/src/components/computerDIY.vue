@@ -788,7 +788,7 @@
               <p>
                 {{ address }}
               </p>
-              <button class="btn btn-info float-right">เปลี่ยนที่อยู่</button>
+              <button class="btn btn-info float-right" @click="GoToAddressSetting">เปลี่ยนที่อยู่</button>
             </div>
           </div>
         </div>
@@ -1137,6 +1137,9 @@ export default {
         }
       }
       this.$router.push("/");
+    },
+    GoToAddressSetting(){
+        this.$router.push("/addressSetting")
     },
   },
 
