@@ -5,7 +5,7 @@ const app = express()
 const mongoose = require('mongoose')
 const cors = require('cors')
 
-const DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://havecom:12345@cluster0.xo4vd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const DATABASE_URL = process.env.DATABASE_URL
 mongoose.connect(DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true })
 app.use(cors());
 const db = mongoose.connection
